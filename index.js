@@ -319,7 +319,7 @@ async function run(){
                      paymentStatus: 'paid',
                       delivaryStatus:'pending-pickup',
                      trakingId:trakingId
-                    } // আপনার কাস্টম নাম
+                    } 
             };
             const result = await parcelsCollection.updateOne(query, update);
             
